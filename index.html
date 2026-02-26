@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Perfect Motor Driving School</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;}
+body{background:#f5f7fa;color:#333;}
+header{background:#0d1b2a;color:#fff;padding:15px 40px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;}
+header h1{font-size:20px;}
+nav a{color:white;text-decoration:none;margin-left:20px;font-weight:500;}
+.hero{background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('https://images.unsplash.com/photo-1502877338535-766e1452684a') no-repeat center/cover;height:90vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;color:white;padding:20px;}
+.hero h2{font-size:42px;}
+.hero p{margin:15px 0;font-size:18px;}
+.section{padding:60px 40px;}
+.accordion{background-color:#fff;color:#0d1b2a;cursor:pointer;padding:18px 20px;width:100%;text-align:left;border:1px solid #ccc;border-radius:8px;margin-bottom:10px;font-size:18px;font-weight:600;transition:0.3s;}
+.accordion:hover{background-color:#f0f0f0;}
+.panel{padding:0 20px;display:none;background-color:white;overflow:hidden;border-left:1px solid #ccc;border-right:1px solid #ccc;border-bottom:1px solid #ccc;border-radius:0 0 8px 8px;margin-bottom:10px;}
+.panel p,.panel ul{margin:10px 0;}
+.map{margin-top:40px;text-align:center;}
+footer{background:#0d1b2a;color:white;text-align:center;padding:20px;}
+.whatsapp{position:fixed;bottom:20px;right:20px;background:#25d366;color:white;padding:15px;border-radius:50%;text-decoration:none;font-size:22px;}
+@media(max-width:768px){.hero h2{font-size:28px;}}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Perfect Motor Driving School</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Complete Driving & RTO Solutions</h2>
+    <p>Learn Safe. Drive Smart. Stay Confident.</p>
+</section>
+
+<section class="section" id="services">
+    <h2>Our Services</h2>
+
+    <button class="accordion">Training & License</button>
+    <div class="panel">
+        <p><strong>Two-Wheeler Training:</strong> ₹3,000 | 12 days</p>
+        <p><strong>Four-Wheeler Training:</strong> 20 days max</p>
+        <p><strong>Two-Wheeler License:</strong> ₹2,500</p>
+        <p><strong>Four-Wheeler License:</strong> ₹5,000</p>
+        <p><strong>Combo Packages:</strong></p>
+        <ul>
+            <li>Two-Wheeler Training + License: ₹5,000</li>
+            <li>Four-Wheeler Training + License: ₹8,000</li>
+            <li>Both Vehicles + License: ₹13,500</li>
+        </ul>
+        <p><strong>Note:</strong> No extra charge if the candidate takes extra time to learn</p>
+        <p>For more info call: <a href="tel:8669328262">8669328262</a></p>
+    </div>
+
+    <button class="accordion">RTO Services</button>
+    <div class="panel">
+        <p>- Passing of vehicles</p>
+        <p>- RC Transfer</p>
+        <p>- Duplicate RC</p>
+        <p>- Address Change</p>
+        <p>- Repassing of cars</p>
+        <p>For more info call: <a href="tel:8669328262">8669328262</a></p>
+    </div>
+
+    <button class="accordion">HSRP Services</button>
+    <div class="panel">
+        <p>- Two-Wheeler: ₹650</p>
+        <p>- Three-Wheeler: ₹700</p>
+        <p>- Four-Wheeler : ₹1,000</p>
+        <p>-Goods Carrier / bus:1100</p>
+        <p>Includes booking & fitting of number plates</p>
+        <p>For more info call: <a href="tel:8669328262">8669328262</a></p>
+    </div>
+
+    <button class="accordion">Insurance Services</button>
+    <div class="panel">
+        <p>- All vehicle insurance in India</p>
+        <p>- First Party and Third Party coverage for all vehicles</p>
+        <p>For more info call: <a href="tel:8669328262">8669328262</a></p>
+    </div>
+
+</section>
+
+<section class="section map" id="contact">
+    <h2>Contact & Visit</h2>
+    <p><strong>Office Address:</strong> Near Forest Office, Prabhat Road, Chiplun, Maharashtra, India</p>
+    <p><strong>Owner Contacts:</strong></p>
+    <p>Supriya Shashikant Jadhav: <a href="tel:94293777070">94293777070</a></p>
+    <p>Shashikant Jadhav: <a href="tel:9890939091">9890939091</a></p>
+    <p>Office Phone/WhatsApp: <a href="tel:8669328262">8669328262</a></p>
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3791.491317840101!2d73.52813867539824!3d17.528057987456035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be300bf56bb4c4d%3A0x9d3c87439ee34549!2sForest%20Office%2C%20Prabhat%20Road%2C%20Chiplun%2C%20Maharashtra%20415006!5e0!3m2!1sen!2sin!4v1699044490000!5m2!1sen!2sin" 
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
+</section>
+
+<footer>
+    <p>© 2026 Perfect Motor Driving School | All Rights Reserved</p>
+</footer>
+
+<a href="https://wa.me/918669328262" class="whatsapp">💬</a>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+for (var i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
